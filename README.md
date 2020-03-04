@@ -19,5 +19,8 @@
 > $ echo '[a] [b]' | md5sum -c
   - \[a]: checksum
   - \[b]: filename
-example:
+example linux:
 > $ echo '8180611b87209d3897b0735a56780204 PhysioNetChallenge2020_Training_CPSC.tar.gz' | md5sum -c
+
+On window using powershell
+> $ certutil -hashfile .\\PhysioNetChallenge2020_Training_CPSC.tar.gz MD5
