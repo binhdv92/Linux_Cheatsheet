@@ -14,3 +14,10 @@
  
  >$ tar -xvzf filename.tar.gz -C /folder/subfolder/
   - -C: Extract files to a specific directory or path
+
+# Checksum MD5, SHA1, SHA256, SHA
+> $ echo '[a] [b]' | md5sum -c
+  - \[a]: checksum
+  - \[b]: filename
+example:
+> $ echo '8180611b87209d3897b0735a56780204 PhysioNetChallenge2020_Training_CPSC.tar.gz' | md5sum -c
